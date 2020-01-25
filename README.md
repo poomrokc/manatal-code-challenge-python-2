@@ -13,4 +13,4 @@ In a lottery game, there is a container which contains 50 balls numbered from 1 
 
 ## Unit testing ideas
 
-I used two method to test my output. They are not tests for true random but I believe they still worth something. First is to make sure that there are no duplicate output in 2000 consecutive calls. Since the chance of that happening is less than 0.001%. The second one is to check for uniform distribution. In 2000 calls each ball should have been selected around 400 times so the most selected ball should not differs from the least called ball more than 100. More explanation and comments and be found in the test file.
+I used two method to test my output. They are not tests for true random but I believe they still worth something. First is to make sure that there are no duplicate outputs in 2000 consecutive calls. Since the chance of that happening is less than 0.001%. The second one is to check for uniform distribution. In 2000 calls each ball should have been selected around 400 times so the most selected ball should not differs from the least called ball more than 100. More explanation and comments can be found in the test file.
